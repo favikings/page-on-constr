@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+body,html{
+  height:100%;
+  width:100%;
+  font-family: 'Poppins', sans-serif !important;
+  color:#222;
+}
+
+.wrapper{
+  overflow:hidden;
+}
+
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right:20px;
+}
+
+.nav-link {
+  font-size:1.1em !important;
+}
+
+.carousel-inner img{
+  width:100%;
+  height:100%;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+ }
+
+.carousel-caption{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  font-size:500%;
+  text-transform:uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption p{
+  font-size:200%;
+  text-shadow: 1px 1px 10px #000;
+}
+
+
+
+/* Clients Logo Slider Css*/
+
+.customer-logos img{
+  width:150px;
+}
+
+/** Footer Styling */
+footer{
+  background:#011B2B;
+  color:#eef5ff;
+  padding-top:20px;
+  margin-top:3rem;
+}
+
+footer hr{
+  background-color:#eef5ff !important;
+
+}
+.footer-icon{
+  margin: 0 auto;
+}
+.footer-icon a{
+  text-decoration: none;
+  color:#a2c7ff;
+  padding:30px;
+  font-size:40px;
+}
+
+.footer-icon .fa-whatsapp{
+  color:#009914;
+}
+.footer-icon .fa-facebook{
+  color:#3b5998;
+}
+.footer-icon .fa-twitter{
+  color:#00aced;
+}
+.footer-icon .fa-instagram{
+  color:#c32aa3;
+}
+
+.footer-icon .fa-whatsapp:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover{
+  opacity:.7;
+  -webkit-transition: ease;
+  -webkit-transition-duration: 0.8s;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*end of theme styling */
+
+/*beginning of personalized styling */
+
+.navbarColor{
+  background-color:#011B2B;
+}
+/* This Styling is for the font awesome icons */
+.fontawe {
+  font-size: 40px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Services Styling*/
+
+.services{
+  background:#eef5ff !important;
+}
+
+.services .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.services .icon{
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+
+ .box {
+  
+  position: relative;
+  overflow: hidden;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.box button {
+  background:#011B2B;
+  color:white;
+}
+
+.box a{
+  text-decoration:none;
+}
+
+/* Testimonials Section
+--------------------------------*/
+.carousel-header{
+  color:#333;
+  text-transform:uppercase;
+  font-weight:bold;
+  position: relative;
+  margin:30px 0 60px;
+}
+
+.carousel .item .img-box{
+  width:135px;
+  height:135px;
+  margin:0 auto;
+  padding:5px;  
+  border:1px solid #ddd;
+  border-radius:50%;
+}
+.carousel .item .img-box img
+  {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+
+.carousel .testimonial{
+  padding: 30px 0 10px;
+  font-style: italic;
+}
+
+.carousel .overview{
+  font-style:italic;
+}
+
+.carousel .carousel-control{
+  width:40px;
+  height:40px;
+  margin-top:-20px;
+  top:50%;
+  background:none;
+}
+
+.testimony{
+  background:#eef5ff !important;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .carousel-caption{
+    top:45%;
+    
+  }
+  .carousel-caption h1{
+    font-size:350%;
+    
+  }
+  
+  .carousel-caption p{
+    font-size:150%;
+    font-weight:bold;
+    
+  }
+
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .customer-logos img{
+    width:100px;
+  }
+  .footer-icon a{
+    text-decoration: none;
+    color:#a2c7ff;
+    padding:30px;
+    font-size:35px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption{
+    top:45%;
+    
+  }
+
+  .carousel-caption h1{
+    font-size:350%;
+    
+  }
+  
+  .carousel-caption p{
+    font-size:140%;
+    
+  }
+
+  .carousel-caption button{
+
+  }
+}
+@media (max-width: 576px) {
+ 
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
