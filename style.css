@@ -301,7 +301,7 @@ figure {
   }
 
   .carousel-caption h1{
-    font-size:350%;
+    font-size:300%;
     
   }
   
@@ -315,7 +315,35 @@ figure {
   }
 }
 @media (max-width: 576px) {
- 
+  .carousel-caption{
+    top:45%;
+    
+  }
+  .carousel-caption h1{
+    font-size:200%;
+    
+  }
+  
+  .carousel-caption p{
+    font-size:100%;
+    font-weight:bold;
+    
+  }
+
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .customer-logos img{
+    width:100px;
+  }
+  .footer-icon a{
+    text-decoration: none;
+    color:#a2c7ff;
+    padding:30px;
+    font-size:35px;
+  }
 }
 
 
