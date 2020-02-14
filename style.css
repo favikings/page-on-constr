@@ -315,24 +315,29 @@ figure {
   }
 }
 @media (max-width: 576px) {
+
+   .nav-link{
+    font-size:80%;
+    text-align: center;
+  }
   .carousel-caption{
     top:40%;
     
   }
   .carousel-caption h1{
-    font-size:150%;
+    font-size:120%;
     
   }
   
   .carousel-caption p{
-    font-size:90%;
+    font-size:70%;
     font-weight:bold;
     
   }
 
   .carousel-caption .btn{
     font-size: 50%;
-    padding: 8px 14px;
+    padding: 6px 10px;
   }
 
   .whychooseus h1{
