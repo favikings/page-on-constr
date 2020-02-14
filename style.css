@@ -316,11 +316,11 @@ figure {
 }
 @media (max-width: 576px) {
   .carousel-caption{
-    top:45%;
+    top:40%;
     
   }
   .carousel-caption h1{
-    font-size:200%;
+    font-size:150%;
     
   }
   
@@ -331,18 +331,30 @@ figure {
   }
 
   .carousel-caption .btn{
-    font-size: 95%;
+    font-size: 70%;
     padding: 8px 14px;
+  }
+
+  .whychooseus h1{
+    font-size:150%;
+  }
+
+  .whychooseus p{
+    font-size: 100%;
   }
 
   .customer-logos img{
     width:100px;
   }
+
+  .footer h2{
+    font-size:100%;
+  }
   .footer-icon a{
     text-decoration: none;
     color:#a2c7ff;
-    padding:30px;
-    font-size:35px;
+    padding:20px;
+    font-size:30px;
   }
 }
 
