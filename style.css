@@ -325,18 +325,19 @@ figure {
   }
   
   .carousel-caption p{
-    font-size:100%;
+    font-size:90%;
     font-weight:bold;
     
   }
 
   .carousel-caption .btn{
-    font-size: 70%;
+    font-size: 50%;
     padding: 8px 14px;
   }
 
   .whychooseus h1{
     font-size:150%;
+    padding:0;
   }
 
   .whychooseus p{
@@ -348,7 +349,11 @@ figure {
   }
 
   .footer h2{
-    font-size:100%;
+    font-size:90%;
+  }
+
+  .footer p{
+    font-size:90%;
   }
   .footer-icon a{
     text-decoration: none;
