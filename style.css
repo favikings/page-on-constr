@@ -260,6 +260,18 @@ figure {
   background:#eef5ff !important;
 }
 
+/*Contact Styling Section */
+.contactbreadcrumb{
+  background:url(img/mac.png) no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+
+}
+.contactbreadcrumb h1{
+  text-align: center;
+  color:#fff;
+}
 
 
 /*---Media Queries --*/
@@ -370,23 +382,14 @@ figure {
   .footer-credit p {
     font-size:80%;
   }
+
+  .contactmap{
+    width:300px;
+    height:300px;
+  }
 }
 
-/*Contact Styling Section */
-.contactbreadcrumb{
-  background:url(img/mac.png) no-repeat;
-  background-size:cover;
-  background-position: center;
-  width:100%;
 
-}
-.contactbreadcrumb h1{
-  text-align: center;
-  color:#fff;
-}
-.contactmap{
-  width:100%;
-}
 
 
 
