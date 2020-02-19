@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,800&display=swap');
 body,html{
   height:100%;
   width:100%;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'raleway', sans-serif !important;
   color:#222;
 }
 
@@ -354,7 +354,7 @@ figure {
   }
 
   .footer h2{
-    font-size:90%;
+    font-size:50%;
   }
 
   .footer p{
@@ -366,8 +366,27 @@ figure {
     padding:20px;
     font-size:30px;
   }
+
+  .footer-credit p {
+    font-size:80%;
+  }
 }
 
+/*Contact Styling Section */
+.contactbreadcrumb{
+  background:url(img/mac.png) no-repeat;
+  background-size:cover;
+  background-position: center;
+  width:100%;
+
+}
+.contactbreadcrumb h1{
+  text-align: center;
+  color:#fff;
+}
+.contactmap{
+  width:100%;
+}
 
 
 
