@@ -260,6 +260,8 @@ figure {
   background:#eef5ff !important;
 }
 
+
+
 /*Contact Styling Section */
 .contactbreadcrumb{
   background:url(img/mac.png) no-repeat;
@@ -271,6 +273,21 @@ figure {
 .contactbreadcrumb h1{
   text-align: center;
   color:#fff;
+}
+
+/**About Us Styling*/
+.project{
+  background:#eef5ff;
+}
+
+.project .counters span {
+  font-size: 48px;
+  display: block;
+  color: #68A4C4;
+}
+
+.about-testimony{
+  background: #fff !important;
 }
 
 
